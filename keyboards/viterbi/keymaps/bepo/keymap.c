@@ -34,20 +34,20 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   //|----+----+----+----+----+----+----|    |----+----+----+----+----+----+----|
      MFFD,LSFT, Z  , X  , C  , V  , B  ,      N  , M  ,COMM,DOT ,SLSH,RSFT,PSCR,
   //|----+----+----+----+----+----+----|    |----+----+----+----+----+----+----|
-     MRWD,LOWR,LCTL,LGUI,LALT,LOWR,SPC ,     ENT ,BSPC,RALT,RASE,RCTL,DEL ,MUTE
+     MRWD,LOWR,LCTL,LALT,LGUI,LOWR,SPC ,     ENT ,BSPC,RGUI,RALT,RCTL,AJST,MUTE
   //`----+----+----+----+----+----+----'    `----+----+----+----+----+----+----'
 ),
 [_LOWER] = LAYOUT_kc(
   //,----+----+----+----+----+----+----.    ,----+----+----+----+----+----+----.
          ,TILD, F1 , F2 , F3 , F4 , F5 ,      F6 , F7 , F8 , F9 ,F10 ,F11 ,F12 ,
   //|----+----+----+----+----+----+----|    |----+----+----+----+----+----+----|
-     UNDS,    ,EXLM, AT ,HASH,DLR ,PERC,     HOME,PGDN,PGUP,END ,    ,LCBR,RCBR,
+     UNDS,    ,EXLM, AT ,HASH,DLR ,PERC,     HOME,PGDN,PGUP,END ,P7  ,P8  ,P9  ,
   //|----+----+----+----+----+----+----|    |----+----+----+----+----+----+----|
-     PLUS,    , F1 , F2 , F3 , F4 , F5 ,     LEFT,DOWN, UP ,RGHT,RCBR,    ,    ,
+     PLUS,    , F1 , F2 , F3 , F4 , F5 ,     LEFT,DOWN, UP ,RGHT,P4  ,P5  ,P6  ,
   //|----+----+----+----+----+----+----|    |----+----+----+----+----+----+----|
-         ,    , F7 , F8 , F9 ,F10 ,F11 ,     F12 ,    ,    ,    ,    ,    ,    ,
+         ,    , F7 , F8 , F9 ,F10 ,F11 ,     F12 ,    ,    ,    ,P1  ,P2  ,P3  ,
   //|----+----+----+----+----+----+----|    |----+----+----+----+----+----+----|
-         ,    ,    ,    ,    ,    ,    ,         ,DEL ,MNXT,VOLD,VOLU,MPLY,MUTE
+         ,    ,    ,    ,    ,    ,    ,         ,DEL ,MNXT,VOLD,P0  ,NLCK,MUTE
   //`----+----+----+----+----+----+----'    `----+----+----+----+----+----+----'
 
 ),
