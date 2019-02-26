@@ -30,7 +30,6 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 // #define MASTER_LEFT
 #define MASTER_RIGHT
 // #define EE_HANDS
-#define AUTO_SHIFT_TIMEOUT 140
 
 #undef RGBLED_NUM
 #define RGBLIGHT_ANIMATIONS
